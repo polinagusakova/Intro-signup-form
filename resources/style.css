@@ -22,10 +22,11 @@ body {
 
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     max-width: 70vw;
     gap: 3rem;
+
 }
 
 .info {
@@ -33,7 +34,7 @@ body {
     justify-content: center;
     flex-direction: column;
     gap: 1.5rem;
-    width: 40rem;
+    width: 30rem;
     color: white;
 }
 
@@ -54,7 +55,7 @@ h1 {
 }
 
 .header-trial {
-    padding: 0.7rem;
+    padding: 0.8rem;
     background-color: var(--blue);
     text-align: center;
     border-radius: 10px;
@@ -83,12 +84,12 @@ form {
     flex-direction: column;
     gap: 1rem;
     width: 100%;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     font-weight: 600;
 }
 
 input {
-    padding: 0.6rem;
+    padding: 0.8rem;
     border: 1px solid var(--grayish-blue);
     border-radius: 3px;
     color: var(--dark-blue);
@@ -98,7 +99,7 @@ input {
 input:focus {
     outline: none;
     border: 1.5px solid var(--dark-blue);
-    padding: 0.6rem;    
+    padding: 0.8rem;    
     padding-left: 1rem;
 }
 
@@ -111,7 +112,7 @@ input[type=submit] {
     box-shadow: 0px 2px hsl(130, 65%, 40%);
     outline: none;
     font-size: 0.7rem;
-    padding: 0.5rem;
+    padding: 0.7rem;
 }
 
 input[type=submit]:focus {
@@ -129,7 +130,7 @@ input[type=submit]:active {
 
 ::placeholder {
     color: hsla(249, 10%, 26%, 0.8);
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     font-weight: 600;
 }
 
