@@ -22,9 +22,9 @@ body {
 
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    max-width: 70vw;
+    max-width: 60rem;
     gap: 3rem;
 
 }
