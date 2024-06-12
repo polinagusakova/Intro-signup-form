@@ -37,8 +37,12 @@ body {
     color: white;
 }
 
+h1 {
+    font-size: 2.5rem;
+}
+
 .info-p {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
 
 .form_trial {
@@ -46,7 +50,7 @@ body {
     justify-content: center;
     flex-direction: column;
     gap: 1rem;
-    width: 40rem;
+    width: 30rem;
 }
 
 .header-trial {
@@ -84,7 +88,7 @@ form {
 }
 
 input {
-    padding: 0.5rem;
+    padding: 0.6rem;
     border: 1px solid var(--grayish-blue);
     border-radius: 3px;
     color: var(--dark-blue);
@@ -94,7 +98,7 @@ input {
 input:focus {
     outline: none;
     border: 1.5px solid var(--dark-blue);
-    padding: 0.5rem;    
+    padding: 0.6rem;    
     padding-left: 1rem;
 }
 
